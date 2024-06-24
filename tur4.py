@@ -1,0 +1,12 @@
+from tkinter import *
+aditya_root =Tk()
+aditya_root.geometry("655x333")
+f1= Frame(aditya_root,bg="blue",borderwidth=4,relief=SUNKEN)
+f1.pack(side=LEFT,fill="y")
+f2=Frame(aditya_root,borderwidth=4,bg="red",relief=SUNKEN)
+f2.pack(side=TOP,fill='x')
+l=Label(f1,text="project Tkinter - pycharm")
+l.pack()
+a=Label(f2,text="welcome to sublime text",font="Helvetica 16 bold",fg="green",pady=22)
+a.pack()
+aditya_root.mainloop()
